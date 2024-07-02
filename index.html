@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam fitness</title>
+    <link rel="stylesheet" href="Project-1\css\style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<style>
+    /* css reset*/
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url("img/bg.jpg");
+        color: white;
+        font-family: "Baloo 2", sans-serif;
+
+
+    }
+
+    .left {
+        /*border: 2px solid red;*/
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+
+
+    .mid {
+        display: block;
+        width: 42%;
+        margin: 20px auto;
+       /* border: 2px solid green;*/
+
+    }
+
+    .right {
+        /*border: 2px solid yellow;*/
+        position: absolute;
+        display: inline-block;
+        right: 34px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+        
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 3px 13px;
+    }
+
+
+    .navbar li a:hover,
+    .navbar li a .active {
+        text-decoration: underline;
+        color: rgb(116, 86, 165);
+    }
+
+    .btn {
+        font-family: "Baloo 2", sans-serif;
+        margin: opx 9px;
+        background-color: #9c2bd6;
+        color: rgb(255, 255, 255);
+        padding: 7px 30px;
+        border: 2px solid rgba(187, 156, 228, 0.623);
+        border-radius: 17px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(161, 122, 122);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 102px 707px;
+        padding: 18px 2px;
+        width: 41%;
+        border-radius: 12px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 251px;
+        padding: 9px 45px;
+        border: 3px solid #686857;
+        margin: 11px auto;
+        border-radius: 15px;
+    }
+
+    .container h1{
+        text-align: center;
+        color: #d0c7e6;
+    }
+
+    .container button{
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+        background-color: #b1833e;
+    }
+    .daka{
+        color:#9044b6d2
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!--left box for logo-->
+        <div class="left">
+            <div>
+                SHIVAM FITNESS
+            </div>
+        </div>
+
+        <!-- mid box for nav bar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!--right box for buttons-->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+
+        <div class="container">
+            <h1>Join Best Gym of Shillong<br><div class="daka">"HULK  GYM"</div></h1>
+            <form action="action.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Date to Join">
+                </div>
+                <button class="btn">submit</button>
+            </form>
+        </div>
+
+    </header>
+</body>
+
+</html>
